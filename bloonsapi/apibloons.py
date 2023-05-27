@@ -42,5 +42,3 @@ def totalcost(tower, p1, p2, p3):
                 cost = cost + upgradecost(tower, 0, 0, i)
     return cost
 
-def sellcost(tower, p1, p2, p3):
-    return (totalcost(tower, p1, p2, p3) * 0.7)\
