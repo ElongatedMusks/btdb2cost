@@ -7,7 +7,6 @@ for i in range(len(api)):
 
 def towerindex(tower):
     for i in range(len(s)):
-        print(s[i])
         if tower == s[i][0]:
             ti = i
             break
